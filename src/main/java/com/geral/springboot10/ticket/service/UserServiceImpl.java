@@ -12,7 +12,7 @@ public class UserServiceImpl {
 	
 	public void hello() 
 	{
-		System.out.println(ticketService);
+		System.out.println("ticketService="+ticketService);
 		String ticket=ticketService.getTicket();
 		System.out.println("买到票了："+ticket);
 	}
